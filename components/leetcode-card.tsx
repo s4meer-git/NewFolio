@@ -41,7 +41,7 @@ export default function LeetCodeCard() {
       setLoading(true)
       setError(null)
 
-      const response = await fetch("/api/leetcode/sam0x?format=json")
+      const response = await fetch("/api/leetcode/s4meer?format=json")
       const data = await response.json()
 
       if (data.status === "success") {
